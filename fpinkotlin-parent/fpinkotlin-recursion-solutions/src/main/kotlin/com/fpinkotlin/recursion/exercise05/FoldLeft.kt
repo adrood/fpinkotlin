@@ -13,6 +13,8 @@ fun <T> List<T>.tail(): List<T> =
         else
             this.subList(1, this.size)
 
+// It is not necessary to define an inner function:
+// The outer function can easily be implemented in a tail-recursive way
 fun <T, U> foldLeft(list: List<T>, z: U, f: (U, T) -> U): U {
     tailrec fun foldLeft(list: List<T>, acc: U, f: (U, T) -> U): U =
             if (list.isEmpty())
