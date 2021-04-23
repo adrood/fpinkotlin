@@ -4,6 +4,7 @@ import com.fpinkotlin.generators.CharKListGenerator
 import io.kotlintest.properties.forAll
 import io.kotlintest.specs.StringSpec
 
+// There are simple wrong implementations that are not signalled by this test
 class FoldRightTest : StringSpec() {
 
     init {
