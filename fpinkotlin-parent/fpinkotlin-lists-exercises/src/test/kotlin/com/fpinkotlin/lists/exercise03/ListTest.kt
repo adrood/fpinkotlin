@@ -5,22 +5,22 @@ import io.kotlintest.properties.forAll
 import io.kotlintest.specs.StringSpec
 
 class ListTest: StringSpec() {
-
-  init {
-
-    "drop" {
-        forAll(IntListGenerator(), Gen.positiveIntegers()) { (first, second), i ->
-            if (first.isEmpty())
-                second.isEmpty()
-            else {
-                (i % first.size).let {
-                    second.drop(it).toString() ==
-                        first.drop(it).joinToString(", ", "[", ", NIL]")
-                }
-            }
-        }
-    }
-  }
+//
+//  init {
+//
+//    "drop" {
+//        forAll(IntListGenerator(), Gen.positiveIntegers()) { (first, second), i ->
+//            if (first.isEmpty())
+//                second.isEmpty()
+//            else {
+//                (i % first.size).let {
+//                    second.drop(it).toString() ==
+//                        first.drop(it).joinToString(", ", "[", ", NIL]")
+//                }
+//            }
+//        }
+//    }
+//  }
 }
 
 class IntListGenerator(private val min: Int = Int.MIN_VALUE, private val max: Int = Int.MAX_VALUE): Gen<Pair<Array<Int>, List<Int>>> {
