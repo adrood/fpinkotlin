@@ -152,7 +152,7 @@ Lots of code is duplicated. This is done so that all exercises are made as indep
 
 Code modules are generally named after the chapter titles, and not the chapter numbers, which sometimes make them difficult to find.Here is the list of the modules:
 
-* Chapter 1: fpinkotlin-introduction
+* Chapter 1: This chapter has no corresponding module
 
 * Chapter 2: This chapter has no corresponding module
 
@@ -180,9 +180,9 @@ Code modules are generally named after the chapter titles, and not the chapter n
 
 * Chapter 14: fpinkotlin-commonproblems
 
-== Code example fro appendix A & B
+== Code examples for appendices A & B
 
-The code examples for appendix A & B are to be found in the https://github.com/pysaumont/fpinkotlin/tree/master/examples/kotlingradle[kotlingradle repository]
+The code examples for appendices A & B are to be found in the https://github.com/pysaumont/fpinkotlin/tree/master/examples/kotlingradle[kotlingradle repository]
 
 
 
